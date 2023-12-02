@@ -8,7 +8,7 @@ export default function App()
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<h1>{jsonData.value} + Webpack!</h1>} />
-                <Route path="*" element={<div class="error"><h1>404: Page Not Found</h1></div>} />
+                <Route path="*" element={<div className="error"><h1>404: Page Not Found</h1></div>} />
             </Routes>
         </BrowserRouter>
     </>
